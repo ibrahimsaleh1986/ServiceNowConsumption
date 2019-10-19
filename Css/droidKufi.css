@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "Droid-Arabic-Kufi";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../font/droidKufi/DroidKufi-Regular.eot);
+    src: url(../font/droidKufi/DroidKufi-Regular.eot?#iefix) format("embedded-opentype"), url(../font/droidKufi/DroidKufi-Regular.woff2) format("x-woff2"), url(../font/droidKufi/DroidKufi-Regular.woff) format("woff"), url(../font/droidKufi/DroidKufi-Regular.ttf) format("truetype");
+}

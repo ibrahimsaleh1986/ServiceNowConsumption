@@ -1,0 +1,13 @@
+/*@font-face {
+    font-family: "Swissra-Normal";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../font/swiss/Swissra-Normal.eot);
+}*/
+
+@font-face {
+    font-family: 'Swissra Condensed Normal';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Swissra Condensed Normal'), url('../font/swiss/Swissra Condensed Normal.woff') format('woff');
+}

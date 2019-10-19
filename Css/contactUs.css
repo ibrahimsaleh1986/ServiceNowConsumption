@@ -1,0 +1,530 @@
+﻿body, html {
+    height: 100%;
+    background: #fafafa;
+}
+
+.example-wrap {
+    max-width: 100%;
+    padding: 0;
+}
+
+.br-section-wrapper {
+    max-width: 1140px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 0;
+}
+
+.br-pagetitle {
+    background: #05485a;
+    height: 130px;
+    padding: 0 25px;
+    color: #fff;
+    position: relative;
+    background-image: url(../img/jpg/sidebar-h.png);
+    background-color: #cccccc;
+    background-size: cover;
+    background-position: right top;
+}
+
+    .br-pagetitle h4 {
+        color: #fff !important;
+    }
+
+    .br-pagetitle > h4, .br-pagetitle > span {
+        position: relative;
+        top: -15px;
+    }
+
+textarea {
+    min-height: 130px;
+}
+
+label {
+    color: #36383f;
+}
+
+.form-control, .dataTables_filter input {
+    border-radius: 5px;
+    /*height: 34px;*/
+
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+}
+
+.btn {
+    border-radius: 15px;
+    padding: 5px 30px;
+    background-image: -webkit-gradient(linear,right top, left bottom,from(#296e6b), to(#34ae89));
+    background-image: -o-linear-gradient(top right,#296e6b, #34ae89);
+    background-image: linear-gradient(to bottom left,#296e6b, #34ae89);
+    color: #fff;
+    font-size: 12px;
+}
+
+    .btn:hover {
+        background-image: -webkit-gradient(linear, right top, left bottom, from(#2e7874),to(#38b791));
+        background-image: -o-linear-gradient(top right, #2e7874,#38b791);
+        background-image: linear-gradient(to bottom left, #2e7874,#38b791);
+    }
+
+
+
+
+.j-placeNav {
+    z-index: 3;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 35px;
+    font-size: 13px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+}
+
+
+
+
+    .j-placeNav .j-placeLinks {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        height: inherit;
+        width: 100%;
+    }
+
+    .j-placeNav .j-placeNavBg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #000;
+        height: 35px;
+        opacity: .7;
+    }
+
+
+    .j-placeNav .j-placeLinks {
+        min-height: 0;
+    }
+
+        .j-placeNav .j-placeLinks li {
+            float: right;
+            display: block;
+            margin: 0;
+            padding: 0;
+            height: inherit;
+        }
+
+.jive-widget:after, .clearfix:after {
+    clear: both;
+    content: "'";
+    display: block;
+    font-size: 0;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.j-placeNav .j-placeLinks li > a {
+    display: inline-block;
+    color: #fff;
+    padding: 0 15px;
+    height: inherit;
+    line-height: 36px;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    opacity: .8;
+    border: none;
+}
+
+.j-placeNav .j-placeLinks a.active {
+    opacity: 1;
+    background: rgba(255,255,255,.2);
+    color: #fff;
+    border: none;
+    border-radius: 0;
+}
+
+.j-placeNav .j-placeLinks li > a:hover {
+    opacity: 1;
+    border: none;
+    border-radius: 0;
+}
+
+
+
+
+
+
+
+
+/************************** followup ***************************/
+
+.login-wrapper {
+    max-width: 315px;
+    background: #fafafa !important;
+}
+
+
+
+
+
+/************************** viewTikct ***************************/
+
+.ticket-form {
+    max-width: 100%;
+    margin: auto;
+    border: #e5e5e5 1px solid;
+    color: #3e3e3e;
+    padding: 0;
+}
+
+    .ticket-form .ticket-info {
+        background: #fafafa;
+        padding: 20px 25px 0;
+    }
+
+        .ticket-form .ticket-info .breadcrumb {
+            border: none;
+            background: none;
+            padding: 0;
+            margin: 0;
+        }
+
+            .ticket-form .ticket-info .breadcrumb .label-status {
+                color: #fff;
+                padding: 0 5px;
+                border-radius: 10px;
+                display: inline-block;
+            }
+
+                .ticket-form .ticket-info .breadcrumb .label-status.unsolved {
+                    background-color: #F5CA00;
+                }
+
+                .ticket-form .ticket-info .breadcrumb .label-status.solved {
+                    background-color: #17a915;
+                }
+
+        .ticket-form .ticket-info .actions a {
+            float: left;
+            border-color: #ccc;
+        }
+
+    .ticket-form .ticket-header {
+        background: #fafafa;
+        padding-right: 70px;
+    }
+
+        .ticket-form .ticket-header > i {
+            font-size: 2em;
+            position: absolute;
+            right: 20px;
+        }
+
+        .ticket-form .ticket-header h2 {
+            padding-bottom: 2px;
+            padding-top: 20px;
+            font-size: 1.1rem;
+            color: #07586e;
+        }
+
+        .ticket-form .ticket-header .ticket-meta span {
+            display: inline-block;
+            font-size: .7rem;
+            margin: 5px;
+        }
+
+            .ticket-form .ticket-header .ticket-meta span span {
+                color: #333;
+            }
+
+            .ticket-form .ticket-header .ticket-meta span i {
+                font-size: 1rem;
+                position: relative;
+                top: 1px;
+                margin-left: 4px;
+            }
+
+
+    .ticket-form .ticket-body {
+        max-width: 85%;
+    }
+
+        .ticket-form .ticket-body .replay {
+            padding-right: 70px;
+            position: relative;
+        }
+
+            .ticket-form .ticket-body .replay > i {
+                font-size: 1.1em;
+                position: absolute;
+                right: 40px;
+                top: 2px;
+                color: #6a6a6a;
+            }
+
+            .ticket-form .ticket-body .replay h4 {
+                font-size: 1rem;
+            }
+
+            .ticket-form .ticket-body .replay p {
+                font-size: .8rem;
+                color: #8a8a8a;
+            }
+
+            .ticket-form .ticket-body .replay h4 span {
+                display: block;
+                color: #146e6f;
+                font-size: .7rem;
+                padding: 5px;
+                font-family: sans-serif;
+            }
+
+            .ticket-form .ticket-body .replay.form {
+                padding-left: 70px;
+            }
+
+                .ticket-form .ticket-body .replay.form textarea {
+                    min-height: 100px;
+                }
+
+
+
+
+.follow-ticket {
+    width: 100%;
+}
+
+.follow-ticket-img {
+    padding: 10px;
+}
+
+    .follow-ticket-img img {
+        width: 55px;
+        height: 65px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+.follow-ticket-body {
+    padding: 10px;
+}
+
+.follow-ticket-button {
+    padding: 10px;
+}
+
+.follow-ticket span {
+    color: #868686;
+}
+
+.follow-ticket strong {
+    font-weight: 600;
+    color: #15A99F !important;
+}
+
+    .follow-ticket strong span {
+        font-weight: 600;
+        color: #15A99F !important;
+    }
+
+.hr-follow {
+    clear: both;
+    margin-top: .8rem;
+    margin-bottom: .8rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.assign-ticket {
+    margin-right: 20px;
+}
+
+
+.followtab {
+    display: inline-block;
+}
+
+.eval-title {
+    font-weight: bold;
+    font-size: .7rem;
+}
+
+.eval-box {
+    background: none !important;
+}
+
+.textarea {
+    height: 100px !important;
+}
+
+.title-ticket {
+    color: #15a99f;
+    font-weight: bold;
+}
+
+.btn-edit {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+    .btn-edit span {
+        padding-left: 5px;
+    }
+
+.objction {
+    padding-left: 70px;
+}
+
+.icon-tawasul {
+    background: url(../../Images/Master/logo.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 35px;
+    height: 60px;
+}
+
+
+
+@media (max-width: 576px) {
+
+    .p-sm-box-0 {
+        padding: 0 !important;
+    }
+}
+
+
+
+
+
+
+/******************************** list *************************************/
+
+.ticket-list h5 {
+    color: #515151;
+    word-spacing: 1px;
+    padding-right: 15px;
+}
+
+.filter-section a {
+    color: #515151;
+}
+
+.hero-ticket > div:first-child {
+    max-width: 150px;
+}
+
+
+.ticket-list .list-group-flush {
+    -webkit-transform: scale(.9);
+    -ms-transform: scale(.9);
+    transform: scale(.9);
+}
+
+.list-group-item {
+    border: solid 1px #d9d9d9 !important;
+    -webkit-box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.05);
+    box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 15px !important;
+    padding: 0;
+    margin-bottom: 30px !important;
+}
+
+.bottom-ticket {
+    background: #fafafa;
+    border-radius: 15px;
+}
+
+    .bottom-ticket span, .bottom-ticket label {
+        display: block;
+        margin: 0;
+        font-family: monospace;
+        font-size: 1.1rem;
+    }
+
+    .bottom-ticket label {
+        color: #696969;
+        font-weight: bold;
+    }
+
+    .bottom-ticket span {
+        font-size: .8rem;
+        color: #acacac;
+    }
+
+    .bottom-ticket > div:not(:first-child) {
+        border-right: solid 1px #d9d9d9;
+    }
+
+    .bottom-ticket > div {
+        padding: 5px;
+    }
+
+.ticket-no {
+    text-align: center;
+    color: #7c7878;
+    width: 100%;
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 1rem;
+    position: relative;
+    top: 4px;
+}
+
+.tag-block {
+    text-align: center;
+    background: #36383f;
+    color: #fff;
+    border-radius: 2px;
+    padding: 3px;
+    margin-bottom: 10px;
+    text-shadow: 0px 0px 2px #fff;
+}
+
+
+.solved-ticket .tag-block.status {
+    background: #009d7a;
+}
+
+.solved-ticket .bottom-ticket .status {
+    color: #009d7a;
+}
+
+
+.new-ticket .tag-block.status {
+    background: #e02b2b;
+}
+
+.new-ticket .bottom-ticket .status {
+    color: #e02b2b;
+}
+
+
+.proccess-ticket .tag-block.status {
+    background: #ddb000;
+}
+
+.proccess-ticket .bottom-ticket .status {
+    color: #ddb000;
+}
