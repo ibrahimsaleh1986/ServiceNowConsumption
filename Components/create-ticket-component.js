@@ -42,9 +42,9 @@
                     url: 'https://ssupport.tetco.sa/api/sn_customerservice/csmtetcoapi/category/massar',
                     data: { source: 'massar' },
                     dataType: 'json',
+                    crossDomain: true,
                     headers: {
                         'Authorization': 'Basic ' + btoa(username + ':' + password),
-                        'Access-Control-Allow-Origin':'http://localhost:9090/',
                         'Access-Control-Allow-Credentials':'true'
                     },
                     success: function (response) {
