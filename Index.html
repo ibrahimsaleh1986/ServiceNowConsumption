@@ -1,4 +1,4 @@
-<html>
+﻿<html>
 
 
     <header>
@@ -35,7 +35,17 @@
     </header>
     <body>
         <div id="contactUsApp">
-            <base_component v-bind:loggedinuser="loggedinuser"></base_component>
+            <base_component 
+            v-bind:customdata="{
+                loggedinuser:false,
+                source:'massar',
+                sourceAr:'مسار',
+                identityno:'2361984301',
+                serviceusername:'rest_user_tetco',
+                servicepassword:'123',
+                ticketNumber:'', 
+                referer:'',
+            }"></base_component>
         </div>
         
         <!-- vuejs libs-->
@@ -44,7 +54,8 @@
         <!-- components -->
         <script src="Components/create-ticket-component.js"></script>
         <script src="Components/followup-component.js"></script>
-        <script src="Components/tickets-list-component.js"></script>
+        <script src="Components/user-tickets-component.js"></script>
+        <script src="Components/view-ticket-component.js"></script>
         <script src="Components/base-component.js"></script>
         <script src="Scripts/index.js"></script>
         <link href="Css/index.css" rel="stylesheet" />

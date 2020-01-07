@@ -9,5 +9,5 @@
     font-family: 'Swissra Condensed Normal';
     font-style: normal;
     font-weight: normal;
-    src: local('Swissra Condensed Normal'), url('../font/swiss/Swissra Condensed Normal.woff') format('woff');
+    src: local('Swissra Condensed Normal'), url('#') format('woff');
 }
